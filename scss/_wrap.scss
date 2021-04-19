@@ -1,0 +1,73 @@
+@import 'variables';
+
+/*Wrap*/
+@mixin wrap-bar-notification 
+{
+    text-align: center;
+    padding-top: 9px;
+}
+@mixin wrap-products 
+{
+    margin-right: 40px; 
+}
+@mixin wrap-logo 
+{
+    text-align: center;    
+}
+@mixin wrap-wrap-content 
+{
+    position: relative;
+    top: 80px;
+    width: 537px;    
+}
+@mixin wrap-wrap-banner 
+{
+    position: relative;    
+}
+/*End*/
+
+/*#region Header-Carousel*/
+@mixin slide
+{
+    position: absolute;
+}
+@mixin slide-item
+{
+    background: url('../images/image-carousel1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    width: 100%;
+    height: 993px;
+}
+@mixin slide-item1
+{
+    background: url('../images/image-carousel2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    width: 100%;
+    height: 993px;
+}
+@mixin slide-item2
+{
+    background: url('../images/image-carousel3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    width: 100%;
+    height: 993px;
+}
+@mixin carousel-indicators
+{
+    li
+    {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: pink;
+        border: 1px solid white;
+        margin: 0 10px!important;
+    }
+}
+/*#endregion Carousel*/

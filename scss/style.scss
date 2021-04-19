@@ -1,0 +1,562 @@
+/*Import*/
+@import 'variables';
+@import 'wrap';
+@import 'reset';
+@import 'fonts';
+@import 'buttons';
+@import 'product-frame';
+@import 'layouts';
+@import 'fields';
+@import 'icons';
+@import 'badges';
+@import 'hover';
+@import 'functions';
+@import 'bg-carousel';
+@import 'show';
+@import 'border';
+/*End-Import*/
+
+/*#region Header*/
+/*#region Top*/
+header
+{   
+    background-color: black;
+    .top
+    {
+        .bar
+        {   
+            @include layout-header-bar;
+            
+            .wrap-notification
+            {
+                @include wrap-bar-notification;
+                
+                .notification 
+                {
+                    @include font-notification;
+                }
+            }
+        }
+        .navigation
+        {   
+            @include layout-navigation;
+            
+            .col-xl-3
+            {
+                .wrap-search-field
+                {
+                    #navigation-search-field
+                    {
+                        @include field-input-search;
+                    }
+                    
+                    .icon-search
+                    {
+                        @include icon-search;
+                    }
+                }
+            }
+            .col-xl-6
+            {
+                .wrap-header-nav
+                {
+                    nav 
+                    {   
+                        padding: unset!important;
+                        
+                        button 
+                        {
+                            
+                        }
+                        div
+                            {
+                                ul 
+                                {   
+                                    display: contents;
+                                    
+                                    li 
+                                    {
+                                        a
+                                        {
+                                            @include font-header-nav;
+                                        }
+                                        
+                                        .show-when-hover
+                                        {
+                                            @include show-when-hover;
+                                        }
+                                        
+                                        .nav-link + .show-when-hover
+                                        {
+                                            @include show-hr-bar;
+                                        }
+                                    }
+                                    .wrap-logo
+                                    {
+                                        @include wrap-logo;
+                                    }
+                                }
+                            }
+                    }
+                }
+            }
+            .col-xl-3
+            {
+                .wrap-header-shortcut
+                {
+                    display: inline-block;
+                    
+                    div.dropdown 
+                    {   
+                        display: inherit;
+                        
+                        button 
+                        {
+                            @include button-dropdown;
+                            @include font-dropdown;
+                        }
+                        
+                        ul 
+                        {
+                            @include font-dropdown;
+                            text-align: left;
+                        }
+                    }
+                    
+                    .language
+                    {
+                        margin-right: 11px;
+                    }
+                    
+                    .currency-unit
+                    {
+                        margin-right: 17px;
+                    }
+                    
+                    div.fontawesome-icon
+                    {
+                        display: inherit;
+                        vertical-align: middle;
+                        
+                        a
+                        {
+                            i
+                            {
+                                @include icon-user-cart; 
+                            }
+                        }
+                        
+                        .header-cart-badge
+                        {
+                            @include badge-cart;
+                        }
+                    }
+                    
+                    .user
+                    {
+                        margin-right: 27px;
+                    }
+                }
+            }
+        }
+    }
+    .horizontal-bar
+    {
+        @include horizontal-bar;
+    }
+}
+/*#endregion*/
+/*#region Bottom*/
+header
+{
+    .top
+    {
+        
+    }
+    .bottom
+    {
+        margin-top: 216px;
+        padding-bottom: 428px;
+        
+        .row
+        {
+            .col
+            {
+                .contain-content
+                {
+                    .small-title
+                    {
+                        @include font-small-title;
+                    }
+                    
+                    .big-title
+                    {
+                        @include font-big-title;
+                    }
+                }
+                .contain-button
+                {
+                    .left-button
+                    { 
+                        float: right;
+                        
+                        .pick-gender-btn
+                        {
+                            @include button-pick-gender;
+                            
+                            .pick-gender-content
+                            {
+                                @include font-pick-gender;
+                                padding: 21px 58px;
+                            }
+                        }
+                    }
+                    .right-button
+                    {   
+                        float: left;
+                        
+                        .pick-gender-btn
+                        {
+                            @include button-pick-gender;
+                            
+                            .pick-gender-content
+                            {
+                                @include font-pick-gender;
+                                padding: 21px 46px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*#endregion*/
+/*#endregion Header*/
+
+/*#region Product-Show*/
+/*#region Top*/
+.product-show
+{   
+    margin-top: 98px;
+    
+    .top
+    {
+        .row
+        {   
+            .left-column
+            {   
+                text-align: right;
+                
+                .wrap-frame-25
+                {   
+                    .frame-25
+                    {
+                        @include frame-demo-25;
+                    }
+                    
+                    .frame-25:first-child
+                    {
+                        margin-right: 37px;
+                    }
+                    
+                }
+                
+                .wrap-frame-50
+                {   
+                    margin-top: 33px;
+                    
+                    .frame-50
+                    {
+                        @include frame-demo-50;
+                    }
+                }
+            }
+            
+            .right-column
+            {   
+                text-align: left;
+                
+                .wrap-frame-100
+                {   
+                    .frame-100
+                    {
+                        @include frame-demo-100;
+                    }
+                }
+            }
+        }
+    }
+    
+    .bottom
+    {   
+        margin-top: 68px;
+        
+        .row:first-child
+        {
+            .col
+            {
+                .wrap-navtab
+                {
+                    display: flex;
+                    
+                    nav 
+                    {
+                        ul 
+                        {   margin-bottom: 52px;
+                            li 
+                            {
+                                a.nav-link
+                                {
+                                    @include font-nav-product;
+                                    padding:unset!important;
+                                }
+                                
+                                a.nav-link:hover + .show-when-hover
+                                {
+                                    opacity: 1;
+                                    transition-duration: 1s;
+                                    width: 131px;
+                                }
+                                
+                                .show-when-hover
+                                {
+                                    @include show-when-hover;
+                                }
+                            }
+                            li:first-child
+                            {
+                                margin-right: 45px;
+                                
+                                .show-when-hover
+                                {
+                                    left: 36.9%;
+                                }
+                            }
+                            li:nth-child(2)
+                            {
+                                margin-right: 45px;
+                                
+                                .show-when-hover
+                                {
+                                    left: 46.8%;
+                                }
+                            }
+                            li:last-child
+                            {
+                                .show-when-hover
+                                {
+                                    left: 56%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row:nth-child(2)
+        {
+            .col
+            {
+                .wrap-products-list
+                {
+                    text-align: center;
+                    
+                    .wrap-products
+                    {   
+                        display: inline-block;
+                        @include wrap-products;
+                        
+                        .frame-tab-product
+                        {
+                            @include frame-tab-product;
+                        }
+                    }
+                    
+                    .wrap-product:nth-child(4):nth-child(8)
+                    {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+        .row:nth-child(3)
+        {
+            .col
+            {
+                .wrap-banner-ads
+                {
+                    @include wrap-wrap-banner;
+                    
+                    .border-inside
+                    {
+                        @include border-border-inside;
+
+                        .wrap-content
+                        {
+                            @include wrap-wrap-content;
+                            
+                            .banner-main-title
+                            {
+                                @include font-banner-paragraph;
+                            }
+                            .shipping-and-returns
+                            {
+                                @include font-service;
+
+                                .hr-small-bar
+                                {
+                                    @include hr-short-bar;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*#endregion*/
+/*#endregion*/
+
+/*#region Blog*/
+/*Top*/
+.blog
+{   margin-top: 58px;
+
+    .top
+    {
+        .row
+        {
+            .wrap-title
+            {
+                .main-title 
+                {
+                    @include font-from-our-blog;
+                }
+                .hr-very-short-bar
+                {
+                    @include hr-very-short-bar;
+                }
+            }
+        }
+        .row:nth-child(2)
+        {   margin-top: 57px;
+            .col-12
+            {   
+                .wrap-slider
+                {   text-align: center;
+                    .story-slider
+                    {   display: inline-block;
+                        text-align: center;
+                        
+                        .wrap-story-paragraph
+                        {
+                            margin-top: 38px;
+                            text-align: left;
+
+                            .our-journey 
+                            {
+                                @include font-our-journey;
+                            }
+                            .hr-bar-bellow-title
+                            {
+                                @include hr-bar-bellow-title;
+                            }
+                            .story-describe
+                            {
+                                @include font-story-describe;
+                            }
+                            .continue-reading
+                            {
+                                @include font-continue-reading;
+                            }
+                            .hr-bar-bellow-continue-reading
+                            {
+                                @include hr-bar-bellow-continue-reading;
+                            }
+                            .icon-greater-than
+                            {
+                                font-weight: 100;
+                                font-size: 9px;
+                                margin-left: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row:nth-child(3)
+        {
+            .signup-form
+            {
+                width: 1400px;
+                height: 190px;
+                background-color: #ecf6f1;
+
+                .row
+                {
+                    .col-6 
+                    {
+                        .wrap-signup-paragraph
+                        {   margin-top: 45px!important;
+
+                            .wrap-fa-icon
+                            {   display: inline-block;
+
+                                .message-icon
+                                {
+                                    font-size: 90px;
+                                }
+                            }
+                        }
+                        .wrap-our-note
+                        {   display: inline-block;
+                            .our-note 
+                            {
+                                @include font-signup;
+                            }
+                        }
+                    }
+                    .col-6 
+                    {
+                        .wrap-input-email
+                        {
+                            float:right;
+                            
+                            .signup-email
+                            {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*#endregion*/
+
+/*Font*/
+div.name-and-price
+{   
+    margin: 24px 0 0 0;
+    p.product-name
+    {
+        @include font-product-name;
+    }
+    
+    p.product-price
+    {
+        @include font-product-price;
+    }
+}
+
+/*Image*/
+.wrap-banner-ads
+{
+    background-image: url("../images/banner15.webp");
+    width: 1398px;
+    height: 365px;
+    margin-top: 100px;
+}

@@ -1,0 +1,12 @@
+.slide-item
+{
+    display: inline-block;
+}
+.slide-item.first
+{
+    margin-right: 43px;
+}
+.slide-item.second
+{
+    margin-right: 41px;
+}

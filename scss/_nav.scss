@@ -1,0 +1,27 @@
+/*Collection-Page*/
+
+@mixin nav-categories-ul-style 
+{
+    background-color: rgb(0, 0, 0);
+    width: 320px;
+    height: 53px;
+}
+@mixin nav-categories-li-style 
+{
+    .Rectangle_2_copy_3 {
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(221, 221, 221);
+        background-color: rgb(255, 255, 255);
+        width: 324px;
+        height: 432px;     
+}
+@mixin nav-categories-a-style 
+{
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(221, 221, 221);
+        background-color: rgb(255, 255, 255);
+        width: 324px;
+        height: 432px;
+}

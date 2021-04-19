@@ -1,0 +1,67 @@
+@mixin frame-demo-25 
+{
+        background-color: rgb(222, 222, 222);
+        width: 317px;
+        height: 317px;
+        display: inline-block;
+}
+@mixin frame-demo-50
+{
+        background-color: rgb(222, 222, 222);
+        width: 676px;
+        height: 317px;
+        display: inline-block;  
+}
+@mixin frame-demo-100
+{
+        background-color: rgb(229, 229, 229);
+        width: 680px;
+        height: 672px;
+        display: inline-block; 
+}
+@mixin frame-tab-product 
+{
+        background-color: rgb(248, 248, 248);
+        width: 320px;
+        height: 389px;
+        display: inline-block;          
+}
+@mixin frame-our-story 
+{
+        background-color: rgb(222, 222, 222);
+        width: 438px;
+        height: 465px;
+        display: inline-block;          
+}
+@mixin frame-instagram-product 
+{
+        background-color: rgb(222, 222, 222);
+        width: 376px;
+        height: 376px;
+        display: inline-block;          
+}
+/*ProductDetailPage*/
+@mixin frame-product-big-image 
+{
+        width: 680px;
+        height: 692px;
+        background-color: #f8f8f8;
+}
+@mixin frame-product-small-image 
+{
+        background-color: rgb(248, 248, 248);
+        width: 108px;
+        height: 110px;                      
+}
+@mixin frame-description-image 
+{
+        width: 838px;
+        height: 800px;
+        background-color: #f8f8f8;        
+}
+@mixin frame-background-big-image 
+{
+        background-color: rgb(248, 248, 248);
+        width: 100%;
+        height: 935px;                      
+}

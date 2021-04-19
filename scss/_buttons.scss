@@ -1,0 +1,56 @@
+@mixin button-input-search
+{
+        background-color: rgb(0, 0, 0);
+        width: 21px;
+        height: 21px;          
+}
+@mixin button-dropdown
+{
+        border-width: 1px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-radius: 18px;
+        width: 75px;
+        height: 34px;
+        background-color: transparent;
+}
+@mixin button-pick-gender 
+{       
+        border:1px solid white;
+        background-color: unset;       
+        width: 197px;
+        height: 58px;
+        outline: unset;
+}
+@mixin button-indicator-slide 
+{
+        border-width: 2px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;          
+}
+@mixin button-product-action 
+{
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.08);
+        width: 46px;
+        height: 46px;          
+}
+@mixin button-contacts 
+{
+        border-width: 1px;
+        border-color: rgb(50, 50, 50);
+        border-style: solid;
+        border-radius: 50%;
+        width: 44px;
+        height: 43px;          
+}
+@mixin button-submit-email 
+{
+        background-color: rgb(229, 183, 45);
+        width: 105px;
+        height: 56px;          
+}

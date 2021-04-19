@@ -1,0 +1,446 @@
+@mixin font-notification
+{
+        font-size: 16px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+}
+@mixin font-input-search 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 1.2;
+}
+@mixin font-header-nav 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+}
+@mixin font-dropdown 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+}
+@mixin font-small-title 
+{
+        font-size: 20px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 0.99867146549434,0,0,1,0,0);
+        -webkit-transform: matrix( 0.99867146549434,0,0,1,0,0);
+        -ms-transform: matrix( 0.99867146549434,0,0,1,0,0);    
+}
+@mixin font-big-title 
+{
+        font-size: 60px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 0.99867146549434,0,0,1,0,0);
+        -webkit-transform: matrix( 0.99867146549434,0,0,1,0,0);
+        -ms-transform: matrix( 0.99867146549434,0,0,1,0,0);
+}
+@mixin font-pick-gender 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 0.99924294543162,0,0,1,0,0);
+        -webkit-transform: matrix( 0.99924294543162,0,0,1,0,0);
+        -ms-transform: matrix( 0.99924294543162,0,0,1,0,0);
+}
+@mixin font-nav-product 
+{
+        font-size: 22px;
+        font-family: "OpenSans";
+        color: #999999;
+        line-height: 1.2;
+        text-align: center;
+        font-weight: bold;
+}
+@mixin font-hover-action 
+{
+        font-size: 13px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;  
+}
+@mixin font-product-name
+{
+        font-size: 16px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 1.2;
+}
+@mixin font-product-price 
+{
+        font-size: 16px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 0;    
+}
+@mixin font-banner-paragraph 
+{
+        font-size: 40px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        line-height: 1.375;
+        text-align: center;          
+}
+@mixin font-service 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;          
+}
+@mixin font-from-our-blog 
+{
+        font-size: 22px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 1.00002048774491,0,0,1,0,0);
+        -webkit-transform: matrix( 1.00002048774491,0,0,1,0,0);
+        -ms-transform: matrix( 1.00002048774491,0,0,1,0,0);          
+}
+@mixin font-our-journey 
+{
+        font-size: 18px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;        
+}
+@mixin font-story-describe
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 2;
+        margin-top: 15px;
+}
+@mixin font-continue-reading 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(229, 183, 45);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        display: block;
+}
+@mixin font-signup 
+{
+        font-size: 22px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.545;
+        text-align: left;          
+}
+@mixin font-email-field 
+{
+        font-size: 22px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.545;
+        text-align: left;
+}
+@mixin font-instagram-shop 
+{
+        font-size: 22px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 1.00002048774491,0,0,1,0,0);
+        -webkit-transform: matrix( 1.00002048774491,0,0,1,0,0);
+        -ms-transform: matrix( 1.00002048774491,0,0,1,0,0);      
+}
+@mixin font-shop-it 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 254, 254);
+        font-weight: bold;
+        line-height: 1.2;
+        
+}
+@mixin font-company-information 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;      
+}
+@mixin font-company-information-refference 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 2.286;
+        text-align: left;      
+}
+@mixin font-main-title
+{
+        font-size: 40px;
+        font-family: "Mermaid";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 0.6;          
+}
+@mixin font-short-describe 
+{
+        font-size: 12px;
+        font-family: "Open Sans";
+        color: rgb(97, 97, 97);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;      
+}
+@mixin font-submit-button 
+{
+        font-size: 12px;
+        font-family: "OpenSans";
+        color: rgb(1, 1, 1);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;          
+}
+@mixin font-debut-from 
+{
+        font-size: 12px;
+        font-family: "OpenSans";
+        color: rgb(1, 1, 1);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;          
+}
+/*CollectionPage*/
+@mixin font-categories 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 3.214;
+        text-align: left;
+}
+@mixin font-categories-choices 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 3.657;
+        text-align: left;
+        width: 102px;
+        height: 369px;
+}
+@mixin font-color-price-size 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 3.214;
+        text-align: left;
+}
+@mixin font-color-price-size-count 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 1.286;
+        text-align: left;
+}
+/*ProductDetailPage*/
+@mixin font-review 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(153, 153, 153);
+        line-height: 1.714;                      
+}
+@mixin font-product-name-hb
+{
+        background-color: rgb(57, 185, 60);
+        width: 520px;
+        height: 55px;
+}
+@mixin  font-product-price-PDP
+{
+        font-size: 20px;
+        font-family: "Open Sans";
+        color: rgb(229, 183, 45);
+        font-weight: bold;
+        line-height: 1.2;
+}
+@mixin font-product-notification 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(57, 185, 60);
+        font-weight: bold;
+        line-height: 2;
+        width: 242px;
+        height: 67px;
+}
+@mixin font-deals
+{
+        font-size: 20px;
+        font-family: "OpenSans";
+        color: rgb(255, 66, 29);
+        line-height: 2;
+}
+@mixin font-deals-countdown
+{
+        font-size: 30px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;            
+}
+@mixin font-days-hours-mins-secs 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+}
+@mixin font-buy-button 
+{
+        font-size: 20px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.9;
+        text-align: center;                      
+}
+@mixin font-product-count 
+{
+        font-size: 20px;
+        font-family: "Open Sans";
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        line-height: 2;                      
+}
+@mixin font-product-note 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 2;
+        width: 550px;
+        height: 42px;
+}
+@mixin font-size-guide-sku-categories
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 2;               
+}
+@mixin font-size-guide-sku-categories-detail
+{
+        font-size: 50px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.36;
+}
+@mixin font-size-color
+{
+        font-size: 50px;
+        font-family: "OpenSans";
+        color: rgb(51, 51, 51);
+        text-transform: uppercase;
+        line-height: 0.36;
+        text-align: left;      
+}
+@mixin font-guaranteed-safe-checkout 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+}
+@mixin font-description-reviews-additional 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.286;
+}
+@mixin font-description-title 
+{
+        font-size: 40px;
+        font-family: "Open Sans";
+        color: rgb(51, 51, 51);
+        line-height: 1.5;
+}
+@mixin font-description-paragraph 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(134, 134, 134);
+        line-height: 2;
+        width: 473px;
+        height: 182px;
+}
+@mixin font-product-advantages 
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(0, 0, 0);
+        line-height: 2.857;
+        width: 353px;
+        height: 131px;
+}
+@mixin font-second-buy-button 
+{
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.286;
+        text-align: center;                      
+}

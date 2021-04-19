@@ -1,0 +1,11 @@
+@mixin icon-search 
+{
+    padding: 15px 0 14px 24px;
+    position: absolute;
+    min-width: 40px;
+}
+@mixin icon-user-cart 
+{
+    font-size: 28px;
+    color:white;    
+}

@@ -1,0 +1,47 @@
+@mixin horizontal-bar 
+{
+        background-color: rgb(255, 255, 255);
+        opacity: 0.2;
+        width: 100%;
+        height: 1px;
+        margin:0 0!important;
+}
+@mixin show-when-hover 
+{
+        width: 0;
+        height: 2px;
+        background-color: #cccc33;
+        position: absolute;
+        opacity: 0;
+        margin-top: 15px;
+}
+@mixin hr-short-bar 
+{
+        width: 133px;
+        height: 2px;
+        background-color: white;
+        display: block;
+}
+@mixin hr-very-short-bar 
+{
+        width: 67px;
+        height: 2px;
+        background-color: #e5b72d;
+        display: block;  
+}
+@mixin hr-bar-bellow-title 
+{
+        width: 51px;
+        height: 1px;
+        background-color: #e5b72d;
+        display: inline-block;
+        text-align: left;
+}
+@mixin hr-bar-bellow-continue-reading 
+{
+        width: 137px;
+        height: 1px;
+        background-color: #e5b72d;
+        display: inline-block;
+        text-align: left;        
+}
