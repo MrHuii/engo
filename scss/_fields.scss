@@ -8,10 +8,24 @@
         outline: none;
         text-indent: 50px;
 }
-@mixin field-input-signup-email 
+@mixin field-signup-email 
 {
-                background-color: rgb(0, 0, 0);
-                position: absolute;
-                width: 409px;
-                height: 2px;
+        border: unset;
+        border-bottom: 2px solid black;
+        outline: none;
+        width: 409px;
+        line-height: 16px;
+        background: unset;
+}
+@mixin field-email-address-footer 
+{
+        width: 330px;
+        height: 56px;
+        border-width: 2px;
+        border-color: #3a3a3a;
+        border-style: solid;
+        color: #595959;
+        background: unset;
+        text-indent: 22px;
+        outline: unset;
 }

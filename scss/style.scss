@@ -364,7 +364,6 @@ header
                     
                     .wrap-products
                     {   
-                        margin-top: 20px;
                         display: inline-block;
                         @include wrap-products;
                         
@@ -500,7 +499,8 @@ header
                     .col-6 
                     {
                         .wrap-signup-paragraph
-                        {   margin-top: 45px!important;
+                        {   margin-top: 56px!important;
+                            margin-left: 54px;
 
                             .wrap-fa-icon
                             {   display: inline-block;
@@ -524,11 +524,83 @@ header
                         .wrap-input-email
                         {
                             float:right;
+                            margin-top: 71px;
+                            margin-right: 55px;
                             
-                            .signup-email
+                            #signup-email-label
                             {
-
+                                    font-size: 14px;
+                                    font-family: "OpenSans";
+                                    color: rgb(134, 134, 134);
+                                    line-height: 11px;
+                                    display: block;
+                                    margin: 0 0!important;
                             }
+                            
+                            .sent-email-icon
+                            {
+                                float: right;
+                                position: relative;
+                                right: 15px;
+                                bottom: 7px;
+                            }
+
+                            #signup-email
+                            {
+                                @include field-signup-email;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row:nth-child(4)
+        {
+            .wrap-instagram-btn
+            {   
+                text-align: center;
+                margin-top: 39px;
+                margin-bottom: 57px;
+
+                .wrap-instagram-logo
+                {
+                    position: relative;
+                    bottom: 39px;
+                    left: 170px;
+                }
+
+                .instagram-shop
+                {
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: rgb(0, 0, 0);
+                    width: 306px;
+                    height: 72px;
+                    background-color: unset;
+                    @include font-instagram-shop;
+
+                    .wrap-instagram-shop-text
+                    {  
+                        padding: 21px 82px 22px 81px;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .row:last-child
+        {
+            .col-12
+            {
+                .wrap-instagram-product
+                {   
+                    .frame-instagram-product
+                    {
+                        display: inline-block;
+                        width: 297px;
+                        
+                        .instagram-product-images
+                        {
+
                         }
                     }
                 }
@@ -538,6 +610,126 @@ header
 }
 /*#endregion*/
 
+/*Footer*/
+footer
+{   
+    background-color: black;
+
+    .top
+    {   
+        padding-top: 81px;
+        padding-bottom: 90px;
+
+        .row
+        {
+            
+            .col-5 
+            {
+                text-align: center;
+
+                .wrap-list 
+                {
+                    display: inline-block;
+                    
+                    .about-us
+                    {
+                        @include font-company-information;
+
+                        li 
+                        {
+                            a 
+                            {
+                                @include font-company-information-refference;
+                            }
+                        }
+                    }
+                }
+                .wrap-list:first-child
+                {
+                    // margin-left: 239px;
+                    margin-right: 149px;
+                }
+            }
+
+            .col-2
+            {
+                text-align: center;
+
+                .wrap-footer-logo
+                {
+
+                }
+                .wrap-footer-paragraph
+                {
+                    h1 
+                    {
+                        @include font-main-title;
+                        margin-top: 10px;
+                    }
+                    p 
+                    {
+                        @include font-short-describe;
+                        margin-top: 23px;
+                    }
+                }
+            }
+
+            .col-5
+            {
+                .wrap-right-col
+                {   text-align: center;
+
+                    .wrap-footer-ournote
+                {
+                    p:first-child
+                    {
+                        @include font-company-information;
+                        text-align: inherit;
+                    }
+                    p:last-child
+                    {
+                        @include font-company-information-refference;
+                        text-align: inherit;
+                    }
+                }
+                .wrap-footer-input-email
+                {
+                    #footer-email-field
+                    {
+                        @include field-email-address-footer;
+                    }
+                    #footer-submit-email-btn
+                    {
+                        @include button-submit-email;
+                        position: absolute;
+                        right: 171px;
+                        bottom: 9px;
+
+                        a 
+                        {
+                            @include font-submit-button;
+                        }
+                    }
+                }
+                }
+            }
+        }
+    }
+    .horizontal-bar
+    {
+        @include horizontal-bar;
+    }
+    .bottom
+    {
+        .row 
+        {
+            .col-4 
+            {
+                
+            }
+        }
+    }
+}
 /*Font*/
 div.name-and-price
 {   

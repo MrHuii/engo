@@ -8,16 +8,23 @@
 {
     padding:0!important;
 }
-/*Background-Carousel*/
+
 html, body 
 {    
 height:100%;    
 width:100%; 
 position:relative;
 }
+
 header,section,div
 {
 padding: 0px;
+}
+
+ul,li,a
+{
+    text-decoration: none!important;
+    list-style-type: none;
 }
 /*End*/
 /*Blog-Slick-Slide*/

@@ -190,21 +190,22 @@
 }
 @mixin font-company-information 
 {
-        font-size: 14px;
-        font-family: "Open Sans";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        text-transform: uppercase;
-        line-height: 1.2;
-        text-align: left;      
+                font-size: 14px;
+                font-family: "Myriad Pro";
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 1.2;
+                text-align: left;
+                font-weight: 200;     
 }
 @mixin font-company-information-refference 
 {
-        font-size: 14px;
-        font-family: "OpenSans";
-        color: rgb(134, 134, 134);
-        line-height: 2.286;
-        text-align: left;      
+                font-size: 12px;
+                font-family: "Myriad Pro";
+                color: rgb(134, 134, 134);
+                line-height: 2.286;
+                text-align: left;
+                font-weight: unset;        
 }
 @mixin font-main-title
 {
@@ -231,7 +232,9 @@
         color: rgb(1, 1, 1);
         text-transform: uppercase;
         line-height: 1.2;
-        text-align: left;          
+        text-align: left;
+        font-weight: bold;
+        padding: 23px 29px 19px 29px; 
 }
 @mixin font-debut-from 
 {
