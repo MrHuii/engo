@@ -8,3 +8,12 @@
     left: 26px;
     text-align: center;    
 }
+@mixin border-footer-contact-icon 
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-color: #323232;
+    border-style: solid;    
+    border-width: 1px;
+}

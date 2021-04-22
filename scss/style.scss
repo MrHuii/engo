@@ -723,9 +723,45 @@ footer
     {
         .row 
         {
+            align-items: center;
             .col-4 
             {
-                
+                text-align: center;
+
+                .wrap-contact-icons
+                {
+
+                    .contact-icon
+                    {   
+                        display: inline-block;
+
+                        .icon-border
+                        {
+                            @include border-footer-contact-icon;
+
+                            .footer-fa-icon
+                            {
+                                @include font-footer-fa-icon;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-4:nth-child(2)
+            {
+                text-align: center;
+            }
+            .col-4:last-child
+            {
+                text-align: center;
+
+                .wrap-banks-logo
+                {
+                    .bank-logo 
+                    {
+                        display: inline-block;
+                    }
+                }
             }
         }
     }
