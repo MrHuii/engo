@@ -1,0 +1,101 @@
+/*Import*/
+/*Background-color*/
+/*End*/
+/*Font-color*/
+/*End*/
+/*Font-Family*/
+/*End*/
+/*Text-Align*/
+/*End*/
+/*Float*/
+/*End*/
+/*Background-color*/
+/*End*/
+/*Font-color*/
+/*End*/
+/*Font-Family*/
+/*End*/
+/*Text-Align*/
+/*End*/
+/*Float*/
+/*End*/
+/*Wrap*/
+/*End*/
+/*#region Header-Carousel*/
+/*#endregion Carousel*/
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container, .container-fluid {
+  padding: 0 !important; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+header, section, div {
+  padding: 0px; }
+
+ul, li, a {
+  text-decoration: none !important;
+  list-style-type: none; }
+
+/*End*/
+/*Blog-Slick-Slide*/
+/*CollectionPage*/
+/*ProductDetailPage*/
+/*ProductDetailPage*/
+a:hover {
+  color: #ff9191 !important;
+  text-decoration: none; }
+
+i:hover {
+  color: #ff9191 !important; }
+
+button:hover {
+  color: #ff9191 !important; }
+
+/*End-Import*/
+header .bottom .row .col .cp-contain-content .cp-big-title {
+  font-size: 60px;
+  font-family: "OpenSans";
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
+header .bottom .row .col .cp-contain-content .cp-current-address {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
+  header .bottom .row .col .cp-contain-content .cp-current-address a {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
+  header .bottom .row .col .cp-contain-content .cp-current-address .icon-greater-than {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    font-family: "FontAwesome";
+    font-size: 10px !important; }
+
+/*# sourceMappingURL=style.css.map */

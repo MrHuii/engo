@@ -1,7 +1,13 @@
-$('.story-slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
-    focusOnSelect: true
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    // margin:10,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    center:true,
+    responsive:true,
+    autoplaySpeed:3000
 });
+

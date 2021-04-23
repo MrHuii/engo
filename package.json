@@ -1,12 +1,10 @@
 {
-
-	"dependencies": 
-	{
+	"dependencies": {
+		"animate.css": "^4.1.1",
+		"jquery": "^3.6.0",
 		"node-sass": "^5.0.0"
-
 	},
-	"scripts": 
-	{
+	"scripts": {
 		"scss": "sass --watch scss/style.scss:css/style.css"
 	}
 }

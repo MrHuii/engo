@@ -190,22 +190,22 @@
 }
 @mixin font-company-information 
 {
-                font-size: 14px;
-                font-family: "Myriad Pro";
-                color: rgb(255, 255, 255);
-                text-transform: uppercase;
-                line-height: 1.2;
-                text-align: left;
-                font-weight: 200;     
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+        font-weight: 200;     
 }
 @mixin font-company-information-refference 
 {
-                font-size: 12px;
-                font-family: "Myriad Pro";
-                color: rgb(134, 134, 134);
-                line-height: 2.286;
-                text-align: left;
-                font-weight: unset;        
+        font-size: 12px;
+        font-family: "Myriad Pro";
+        color: rgb(134, 134, 134);
+        line-height: 2.286;
+        text-align: left;
+        font-weight: unset;        
 }
 @mixin font-main-title
 {
@@ -238,14 +238,14 @@
 }
 @mixin font-footer-fa-icon 
 {
-                font-size: 19px;
-                font-family: "FontAwesome";
-                color: rgb(139, 139, 139);
-                line-height: 4.167;
-                text-align: center;
-                -moz-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
-                -webkit-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
-                -ms-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
+        font-size: 19px;
+        font-family: "FontAwesome";
+        color: rgb(139, 139, 139);
+        line-height: 4.167;
+        text-align: center;
+        -moz-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
+        -webkit-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
+        -ms-transform: matrix( 0.84020618556701,0,0,0.83333333333333,0,0);
 }
 @mixin font-debut-from 
 {
@@ -257,6 +257,28 @@
         text-align: left;          
 }
 /*CollectionPage*/
+@mixin cp-font-big-title
+{
+        font-size: 60px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 0.99663776322775,0,0,1,0,0);
+        -webkit-transform: matrix( 0.99663776322775,0,0,1,0,0);
+        -ms-transform: matrix( 0.99663776322775,0,0,1,0,0);
+}
+@mixin cp-font-current-address
+{
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        -moz-transform: matrix( 0.99663776322775,0,0,1,0,0);
+        -webkit-transform: matrix( 0.99663776322775,0,0,1,0,0);
+        -ms-transform: matrix( 0.99663776322775,0,0,1,0,0);
+}
 @mixin font-categories 
 {
         font-size: 14px;

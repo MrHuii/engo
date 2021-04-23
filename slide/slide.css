@@ -1,12 +1,25 @@
-.slide-item
+.image
 {
-    display: inline-block;
+    width: 1920px;
+    height: 993px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
 }
-.slide-item.first
+.owl-item
 {
-    margin-right: 43px;
+    display: inline!important;
+    height: 993px;
 }
-.slide-item.second
+.one
 {
-    margin-right: 41px;
+    background-image: url("../images/image-carousel1.jpeg");
+}
+.two
+{
+    background-image: url("../images/image-carousel2.jpeg");
+}
+.three
+{
+    background-image: url("../images/image-carousel3.jpeg");
 }

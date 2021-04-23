@@ -1,0 +1,51 @@
+/*Import*/
+@import '../scss/variables';
+@import '../scss/wrap';
+@import '../scss/reset';
+@import '../scss/fonts';
+@import '../scss/buttons';
+@import '../scss/product-frame';
+@import '../scss/layouts';
+@import '../scss/fields';
+@import '../scss/icons';
+@import '../scss/badges';
+@import '../scss/hover';
+@import '../scss/functions';
+@import '../scss/show';
+@import '../scss/border';
+/*End-Import*/
+
+header 
+{
+    .bottom
+    {
+        .row
+        {
+            .col
+            {
+                .cp-contain-content
+                {
+                    .cp-big-title
+                    {
+                        @include cp-font-big-title;
+                    }
+                    .cp-current-address
+                    {
+                        @include cp-font-current-address;
+                        
+                        a
+                        {
+                            @include cp-font-current-address;
+                        }
+                        .icon-greater-than
+                        {
+                            @include cp-font-current-address;
+                            font-family: "FontAwesome";
+                            font-size: 10px!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
