@@ -239,7 +239,7 @@
 @mixin font-footer-fa-icon 
 {
         font-size: 19px;
-        font-family: "FontAwesome";
+        font-family:"FontAwesome";
         color: rgb(139, 139, 139);
         line-height: 4.167;
         text-align: center;
@@ -286,7 +286,7 @@
         color: rgb(255, 255, 255);
         font-weight: bold;
         text-transform: uppercase;
-        line-height: 3.214;
+        line-height: 14px;
         text-align: left;
 }
 @mixin font-categories-choices 

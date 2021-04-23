@@ -59,25 +59,18 @@ button:hover {
   color: #ff9191 !important; }
 
 /*End-Import*/
-header .bottom .row .col .cp-contain-content .cp-big-title {
-  font-size: 60px;
-  font-family: "OpenSans";
-  color: white;
-  line-height: 1.2;
-  text-align: center;
-  -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-  -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-  -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
-header .bottom .row .col .cp-contain-content .cp-current-address {
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: white;
-  line-height: 1.2;
-  text-align: center;
-  -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-  -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-  -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
-  header .bottom .row .col .cp-contain-content .cp-current-address a {
+header {
+  background-color: #b1b1b1; }
+  header .bottom .row .col .cp-contain-content .cp-big-title {
+    font-size: 60px;
+    font-family: "OpenSans";
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
+  header .bottom .row .col .cp-contain-content .cp-current-address {
     font-size: 14px;
     font-family: "OpenSans";
     color: white;
@@ -86,16 +79,103 @@ header .bottom .row .col .cp-contain-content .cp-current-address {
     -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
     -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
-  header .bottom .row .col .cp-contain-content .cp-current-address .icon-greater-than {
-    font-size: 14px;
-    font-family: "OpenSans";
-    color: white;
-    line-height: 1.2;
-    text-align: center;
-    -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-    -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-    -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
-    font-family: "FontAwesome";
-    font-size: 10px !important; }
+    header .bottom .row .col .cp-contain-content .cp-current-address a {
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: white;
+      line-height: 1.2;
+      text-align: center;
+      -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+      -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0); }
+    header .bottom .row .col .cp-contain-content .cp-current-address .icon-greater-than {
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: white;
+      line-height: 1.2;
+      text-align: center;
+      -moz-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+      -webkit-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(0.9966377632, 0, 0, 1, 0, 0);
+      font-family: "FontAwesome";
+      font-size: 10px !important; }
+
+.cp-product-show {
+  margin-top: 34px; }
+  .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .menu-title {
+    width: 320px;
+    height: 53px;
+    background-color: black; }
+    .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .menu-title .wrap-content {
+      top: 19px;
+      left: 22px;
+      position: relative;
+      display: inline-block; }
+      .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .menu-title .wrap-content .fa-menu-icon {
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 14px;
+        text-align: left;
+        font-family: "FontAwesome";
+        font-size: 20px;
+        margin-right: 13px; }
+      .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .menu-title .wrap-content .title {
+        display: inline-block;
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 14px;
+        text-align: left;
+        margin: 0; }
+  .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .categories {
+    width: 320px;
+    height: 412px;
+    border: 2px solid gray;
+    border-top: unset; }
+    .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .categories .categories-choice {
+      width: 316px;
+      height: 51px;
+      border-bottom: 1px solid gray; }
+      .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .categories .categories-choice .choice-link {
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: black;
+        line-height: 3.657;
+        text-align: left;
+        width: 102px;
+        height: 369px;
+        font-weight: bold;
+        margin-left: 19px; }
+        .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .categories .categories-choice .choice-link .fa-chevron-right {
+          line-height: 3.657;
+          float: right;
+          margin-right: 15px; }
+    .cp-product-show .container-xxl .row .col-3 .row .wrap-categories .categories .categories-choice:last-child {
+      border-bottom: unset; }
+  .cp-product-show .container-xxl .row .col-3 .row .wrap-color-filter .menu-title {
+    width: 320px;
+    height: 53px;
+    background-color: #f0f0f0; }
+    .cp-product-show .container-xxl .row .col-3 .row .wrap-color-filter .menu-title .title {
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 14px;
+      text-align: left;
+      margin-left: 21px;
+      line-height: 3.657;
+      color: black; }
+  .cp-product-show .container-xxl .row .col-3 .row .wrap-color-filter .color-filter-table {
+    width: 320px;
+    height: 153px;
+    border: 1px solid gray;
+    border-top: unset; }
 
 /*# sourceMappingURL=style.css.map */

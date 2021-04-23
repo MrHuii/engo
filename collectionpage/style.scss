@@ -13,10 +13,13 @@
 @import '../scss/functions';
 @import '../scss/show';
 @import '../scss/border';
+@import 'layout.scss';
 /*End-Import*/
 
 header 
 {
+    background-color: #b1b1b1;
+    
     .bottom
     {
         .row
@@ -42,6 +45,112 @@ header
                             @include cp-font-current-address;
                             font-family: "FontAwesome";
                             font-size: 10px!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cp-product-show
+{
+    margin-top: 34px;
+    
+    .container-xxl
+    {
+        .row 
+        {
+            .col-3 
+            {
+                .row 
+                {
+                    .wrap-categories
+                    {
+                        .menu-title
+                        {
+                            @include layout-menu-title;
+                            background-color: black;
+                            
+                            .wrap-content
+                            {
+                                top: 19px;
+                                left: 22px;
+                                position: relative;
+                                display: inline-block;
+                                
+                                .fa-menu-icon
+                                {
+                                    @include font-categories;
+                                    font-family: "FontAwesome";
+                                    font-size: 20px;
+                                    margin-right: 13px;
+                                }
+                                
+                                .title
+                                {
+                                    display: inline-block;
+                                    @include font-categories;
+                                    margin:0;
+                                }
+                            }
+                        }
+                        .categories 
+                        {
+                            width: 320px;
+                            height: 412px;
+                            border: 2px solid gray;
+                            border-top: unset;
+                            .categories-choice
+                            {
+                                width: 316px;
+                                height: 51px;
+                                border-bottom: 1px solid gray;
+                                
+                                .choice-link
+                                {
+                                    @include font-categories-choices;
+                                    font-weight: bold;
+                                    margin-left: 19px;
+                                    
+                                    .fa-chevron-right
+                                    {
+                                        line-height: 3.657;
+                                        float: right;
+                                        margin-right: 15px;
+                                    }
+                                }
+                            }
+                            .categories-choice:last-child
+                            {
+                                border-bottom: unset;
+                            }
+                        }
+                    }
+                }
+                .row 
+                {
+                    .wrap-color-filter
+                    {
+                        .menu-title 
+                        {
+                            @include layout-menu-title;
+                            background-color: #f0f0f0;
+
+                            .title 
+                            {
+                                @include font-categories;
+                                margin-left: 21px;
+                                line-height: 3.657;
+                                color:black;
+                            }
+                        }
+                        .color-filter-table
+                        {
+                            width: 320px;
+                            height: 153px;
+                            border: 1px solid gray;
+                            border-top: unset;
                         }
                     }
                 }

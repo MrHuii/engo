@@ -58,38 +58,6 @@ i:hover {
 button:hover {
   color: #ff9191 !important; }
 
-  @media only screen and (max-width: 1300px) {
-    /* For mobile phones: */
-    header .container-xxl .top .navigation .col-xl-3
-    {
-      float: left;
-      display: contents;
-    }
-    header .container-xxl .top .navigation .col-xl-6
-    {
-      float: left;
-      display: contents;
-    }
-    header .container-xxl .top .navigation .col-xl-3:last-child 
-    {
-      float: left;
-      display: inline-flex;
-    }
-  }
-  @media only screen and (max-width:1250px) {
-    header .container-xxl .top .navigation .col-xl-3:last-child .wrap-header-shortcut
-    {
-      float: left;
-      display: contents;
-    }
-  }
-  @media only screen and (max-width:900px) {
-    header .container-xxl .top .navigation .col-xl-3:last-child .wrap-header-shortcut
-    {
-      float: left;
-      display: flex;
-    }
-  }
 /*End-Import*/
 /*#region HomePage*/
 /*#region Header*/
@@ -462,7 +430,8 @@ header .bottom {
       .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon {
         display: inline-block; }
         .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon .message-icon {
-          font-size: 90px; }
+          font-size: 90px;
+          margin-right: 35px; }
     .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note {
       display: inline-block; }
       .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note .our-note {
