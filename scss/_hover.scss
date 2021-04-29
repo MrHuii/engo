@@ -11,3 +11,12 @@ button:hover
 {
     color: #ff9191 !important;
 }
+
+@mixin show-when-hover 
+{
+        width: 100%;
+        height: 2px;
+        background-color: #cccc33;
+        opacity: 1;
+        margin-top: 15px;
+}

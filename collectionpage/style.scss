@@ -479,7 +479,18 @@ header
                 {
                     .wrap-extensions
                     {
-
+                        .wrap-filter-dropdown
+                        {
+                            
+                            .wrap-filter-icon
+                            {
+                                width: 51px;
+                                height: 51px;
+                                border-radius: 50%;
+                                background-color: yellow;
+                                text-align: center;
+                            }
+                        }
                     }
                     .product-list 
                     {

@@ -20,6 +20,10 @@
         <!--SlideJs-->
         <script src="../slide/slide.js"></script>
         <link rel="stylesheet" href="../slide/slide.css">
+        <!--Slick-->
+        <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <!--Owl-Carousel-->
         <link rel="stylesheet" href="../owlcarousel/dist/assets/owl.carousel.css">
         <link rel="stylesheet" href="../owlcarousel/dist/assets/owl.theme.green.min.css">
@@ -29,30 +33,21 @@
         <!--#region Layout-->
         <header>
             <div class="container-xxl">
-                <div class="owl-carousel owl-theme owl-rtl owl-drag">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage">
-                            <div class="owl-item">
-                                <span class="image one">
-                                    
-                                </span>
-                            </div>
-                            <div class="owl-item">
-                                <span class="image two">
-                                    
-                                </span>
-                            </div>
-                            <div class="owl-item">
-                                <span class="image three">
-                                    
-                                </span>
-                            </div>
-                        </div>
+                <div class="header-slick-slide">
+                    <div class="slide-item">
+                        <span class="image one">
+                            
+                        </span>
                     </div>
-                    <div class="owl-dots">
-                        <div class="owl-dot active"><span></span></div>
-                        <div class="owl-dot"><span></span></div>
-                        <div class="owl-dot"><span></span></div>
+                    <div class="slide-item">
+                        <span class="image two">
+                            
+                        </span>
+                    </div>
+                    <div class="slide-item">
+                        <span class="image three">
+                            
+                        </span>
                     </div>
                 </div>
                 <div class="top">
@@ -80,33 +75,46 @@
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="../homepage/index.html">Home</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="../homepage/index.html">
+                                                    Home
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="../collectionpage/index.html">Shop</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="../collectionpage/index.html">
+                                                    Shop
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Element</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="#">
+                                                    Element
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                             <li class="wrap-logo">
                                                 <a href="../homepage/index.html">
                                                     <img src="../images/for-all/Homepage.png" alt="Hebe">
+                                                    <span class="show-when-hover"></span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Page</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="#">
+                                                    Page
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Blog</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="#">
+                                                    Blog
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Megamenu</a>
-                                                <span class="show-when-hover"></span>
+                                                <a class="nav-link" href="#">
+                                                    Megamenu
+                                                    <span class="show-when-hover"></span>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -228,19 +236,19 @@
                         <div class="col-6 left-column">
                             <div class="wrap-frame-25">
                                 <div class="frame-25">
-                                    <a href="">
+                                    <a href="" class="wrap-demo-images">
                                         <img src="../images/homepage/frame-25-shirt.jpg" alt="shirt">
                                     </a>
                                 </div>
                                 <div class="frame-25">
-                                    <a href="">
+                                    <a href="" class="wrap-demo-images">
                                         <img src="../images/homepage/frame-25-bag.jpg" alt="bag">
                                     </a>
                                 </div>
                             </div>
                             <div class="wrap-frame-50">
                                 <div class="frame-50">
-                                    <a href="">
+                                    <a href="" class="wrap-demo-images">
                                         <img src="../images/homepage/frame-50-patten.jpg" alt="patten">
                                     </a>
                                 </div>
@@ -265,21 +273,21 @@
                                     <ul class="nav">
                                         <li class="nav-item">
                                             <a class="nav-link active" href="#">
-                                                New Arrivals      
+                                                New Arrivals
+                                                <span class="show-when-hover"></span>      
                                             </a>
-                                            <span class="show-when-hover"></span>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">
                                                 Best Seller
+                                                <span class="show-when-hover"></span>
                                             </a>
-                                            <span class="show-when-hover"></span>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">
                                                 Top Rate
+                                                <span class="show-when-hover"></span>
                                             </a>
-                                            <span class="show-when-hover"></span>
                                         </li>
                                     </ul>
                                 </nav>
@@ -433,10 +441,10 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <div class="wrap-slider">
-                                <div class="slick-slide slide-item">
+                            <div class="multiple-items">
+                                <div class="slide-item">
                                     <a href="">
-                                        <img src="../images/homepage/images-silde-1.jpg" alt="Images1">
+                                        <img src="../images/homepage/story-slide-images.webp" alt="Images1">
                                     </a>
                                     <div class="wrap-story-paragraph">
                                         <p class="our-journey">
@@ -453,9 +461,9 @@
                                         <span class="hr-bar-bellow-continue-reading"></span>
                                     </div>
                                 </div>
-                                <div class="slick-slide slide-item">
+                                <div class="slide-item">
                                     <a href="">
-                                        <img src="../images/homepage/images-slide-2.jpg" alt="Images2">
+                                        <img src="../images/homepage/story-slide-images-2.webp" alt="Images2">
                                     </a>
                                     <div class="wrap-story-paragraph">
                                         <p class="our-journey">
@@ -472,9 +480,85 @@
                                         <span class="hr-bar-bellow-continue-reading"></span>
                                     </div>
                                 </div>
-                                <div class="slick-slide slide-item">
+                                <div class="slide-item">
                                     <a href="">
-                                        <img src="../images/homepage/images-silde-3.jpg" alt="Images3">
+                                        <img src="../images/homepage/story-slide-images-3.webp" alt="Images3">
+                                    </a>
+                                    <div class="wrap-story-paragraph">
+                                        <p class="our-journey">
+                                            Our Journey from Sheep to Shop
+                                        </p>
+                                        <span class="hr-bar-bellow-title"></span>
+                                        <p class="story-describe">
+                                            Cliquam erat volutpat. Praesent ut ligula non mi varius sagittis.<br>
+                                            Curabitur blandit mollis lacus. Praesent metus tellus...
+                                        </p>
+                                        <a href="" class="continue-reading">
+                                            Continue reading <span class="fa fa-chevron-right icon-greater-than" aria-hidden="true"></span>
+                                        </a>
+                                        <span class="hr-bar-bellow-continue-reading"></span>
+                                    </div>
+                                </div>
+                                <div class="slide-item">
+                                    <a href="">
+                                        <img src="../images/homepage/story-slide-images-4.webp" alt="Images3">
+                                    </a>
+                                    <div class="wrap-story-paragraph">
+                                        <p class="our-journey">
+                                            Our Journey from Sheep to Shop
+                                        </p>
+                                        <span class="hr-bar-bellow-title"></span>
+                                        <p class="story-describe">
+                                            Cliquam erat volutpat. Praesent ut ligula non mi varius sagittis.<br>
+                                            Curabitur blandit mollis lacus. Praesent metus tellus...
+                                        </p>
+                                        <a href="" class="continue-reading">
+                                            Continue reading <span class="fa fa-chevron-right icon-greater-than" aria-hidden="true"></span>
+                                        </a>
+                                        <span class="hr-bar-bellow-continue-reading"></span>
+                                    </div>
+                                </div>
+                                <div class="slide-item">
+                                    <a href="">
+                                        <img src="../images/homepage/story-slide-images-5.webp" alt="Images3">
+                                    </a>
+                                    <div class="wrap-story-paragraph">
+                                        <p class="our-journey">
+                                            Our Journey from Sheep to Shop
+                                        </p>
+                                        <span class="hr-bar-bellow-title"></span>
+                                        <p class="story-describe">
+                                            Cliquam erat volutpat. Praesent ut ligula non mi varius sagittis.<br>
+                                            Curabitur blandit mollis lacus. Praesent metus tellus...
+                                        </p>
+                                        <a href="" class="continue-reading">
+                                            Continue reading <span class="fa fa-chevron-right icon-greater-than" aria-hidden="true"></span>
+                                        </a>
+                                        <span class="hr-bar-bellow-continue-reading"></span>
+                                    </div>
+                                </div>
+                                <div class="slide-item">
+                                    <a href="">
+                                        <img src="../images/homepage/story-slide-images-6.webp" alt="Images3">
+                                    </a>
+                                    <div class="wrap-story-paragraph">
+                                        <p class="our-journey">
+                                            Our Journey from Sheep to Shop
+                                        </p>
+                                        <span class="hr-bar-bellow-title"></span>
+                                        <p class="story-describe">
+                                            Cliquam erat volutpat. Praesent ut ligula non mi varius sagittis.<br>
+                                            Curabitur blandit mollis lacus. Praesent metus tellus...
+                                        </p>
+                                        <a href="" class="continue-reading">
+                                            Continue reading <span class="fa fa-chevron-right icon-greater-than" aria-hidden="true"></span>
+                                        </a>
+                                        <span class="hr-bar-bellow-continue-reading"></span>
+                                    </div>
+                                </div>
+                                <div class="slide-item">
+                                    <a href="">
+                                        <img src="../images/homepage/story-slide-images-7.webp" alt="Images3">
                                     </a>
                                     <div class="wrap-story-paragraph">
                                         <p class="our-journey">
@@ -756,6 +840,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="../jquery/jquery.js"></script>
         <!--End-->
+        <!--Slick-->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../slick/slick.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!--Owl-Carousel-->
         <script src="jquery.min.js"></script>
         <script src="../owlcarousel/dist/owl.carousel.js"></script>

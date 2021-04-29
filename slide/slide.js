@@ -1,13 +1,13 @@
-// var owl = $('.owl-carousel');
-// owl.owlCarousel({
-//     items:1,
-//     loop:true,
-//     // margin:10,
-//     autoplay:true,
-//     autoplayTimeout:5000,
-//     autoplayHoverPause:true,
-//     center:true,
-//     responsive:true,
-//     autoplaySpeed:3000
-// });
 
+$('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+});
+
+$('.header-slick-slide').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+});

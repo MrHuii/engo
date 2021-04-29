@@ -1,25 +1,21 @@
-.image
+/* .image
 {
     width: 1920px;
     height: 993px;
     background-repeat: no-repeat;
     background-position: center center;
     position: absolute;
-}
-.owl-item
-{
-    display: inline!important;
-    height: 993px;
-}
+    display: ;
+} */
 .one
 {
-    background-image: url("../images/image-carousel1.jpeg");
+    background-image: url("../images/for-all/image-carousel1.jpeg");
 }
 .two
 {
-    background-image: url("../images/image-carousel2.jpeg");
+    background-image: url("../images/for-all/image-carousel2.jpeg");
 }
 .three
 {
-    background-image: url("../images/image-carousel3.jpeg");
+    background-image: url("../images/for-all/image-carousel3.jpeg");
 }

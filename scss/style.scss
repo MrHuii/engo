@@ -39,7 +39,7 @@ header
         }
         .navigation
         {   
-
+            
             @include layout-navigation;
             
             .col-xl-3
@@ -84,16 +84,23 @@ header
                                     a
                                     {
                                         @include font-header-nav;
+                                        
+                                        .show-when-hover
+                                        {
+                                            opacity: 0;
+                                            width: 0%;
+                                        }
                                     }
                                     
-                                    .show-when-hover
+                                    .nav-link:hover
                                     {
-                                        @include show-when-hover;
-                                    }
-                                    
-                                    .nav-link + .show-when-hover
-                                    {
-                                        @include show-hr-bar;
+                                        .show-when-hover
+                                        {
+                                            @include show-when-hover;
+                                            content: "";
+                                            display: block;
+                                            transition: 0.5s;
+                                        }
                                     }
                                 }
                                 .wrap-logo
@@ -258,6 +265,21 @@ header
                     .frame-25
                     {
                         @include frame-demo-25;
+
+                        .wrap-demo-images::before
+                        {
+                            opacity: 0.75;
+                            transition: opacity 0.4s;
+                            position: absolute;
+                            content: '';
+                            top: 30px;
+                            left: 30px;
+                            right: 30px;
+                            bottom: 30px;
+                            background: #ffffff;
+                            opacity: 0;
+                            z-index: 2;
+                        }
                     }
                     
                     .frame-25:first-child
@@ -315,18 +337,23 @@ header
                                 {
                                     @include font-nav-product;
                                     padding:unset!important;
+
+                                    .show-when-hover
+                                    {
+                                        width: 0%;
+                                    }
                                 }
                                 
-                                a.nav-link:hover + .show-when-hover
+                                .nav-link:hover
                                 {
-                                    opacity: 1;
-                                    transition-duration: 1s;
-                                    width: 131px;
-                                }
-                                
-                                .show-when-hover
-                                {
-                                    @include show-when-hover;
+                                    .show-when-hover
+                                    {
+                                        @include show-when-hover;
+                                        content: "";
+                                        display: block;
+                                        transition: 0.5s;
+                                        background-color: red;
+                                    }
                                 }
                             }
                             li:first-child
@@ -391,6 +418,8 @@ header
             {
                 .wrap-banner-ads
                 {
+                    background-image: url('../images/homepage/banner15.webp');
+                    
                     @include wrap-wrap-banner;
                     
                     .border-inside
@@ -449,40 +478,46 @@ header
         {   margin-top: 57px;
             .col-12
             {   
-                .wrap-slider
+                .multiple-items
                 {   
                     text-align: center;
                     
-                    .wrap-story-paragraph
+                    .slide-item
                     {
-                        margin-top: 38px;
-                        text-align: left;
+                        display: inline-block;
                         
-                        .our-journey 
+                        .wrap-story-paragraph
                         {
-                            @include font-our-journey;
-                        }
-                        .hr-bar-bellow-title
-                        {
-                            @include hr-bar-bellow-title;
-                        }
-                        .story-describe
-                        {
-                            @include font-story-describe;
-                        }
-                        .continue-reading
-                        {
-                            @include font-continue-reading;
-                        }
-                        .hr-bar-bellow-continue-reading
-                        {
-                            @include hr-bar-bellow-continue-reading;
-                        }
-                        .icon-greater-than
-                        {
-                            font-weight: 100;
-                            font-size: 9px;
-                            margin-left: 22px;
+                            margin-top: 38px;
+                            text-align: left;
+                            width: 440px;
+                            
+                            .our-journey 
+                            {
+                                @include font-our-journey;
+                            }
+                            .hr-bar-bellow-title
+                            {
+                                @include hr-bar-bellow-title;
+                            }
+                            .story-describe
+                            {
+                                @include font-story-describe;
+                            }
+                            .continue-reading
+                            {
+                                @include font-continue-reading;
+                            }
+                            .hr-bar-bellow-continue-reading
+                            {
+                                @include hr-bar-bellow-continue-reading;
+                            }
+                            .icon-greater-than
+                            {
+                                font-weight: 100;
+                                font-size: 9px;
+                                margin-left: 22px;
+                            }
                         }
                     }
                 }
@@ -490,6 +525,8 @@ header
         }
         .row:nth-child(3)
         {
+            margin-top: 39px;
+            
             .signup-form
             {
                 width: 1400px;

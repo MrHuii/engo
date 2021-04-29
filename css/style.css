@@ -112,17 +112,18 @@ header {
           text-transform: uppercase;
           line-height: 1.2;
           text-align: center; }
-        header .top .navigation .col-xl-6 .wrap-header-nav nav div ul li .show-when-hover {
-          width: 0;
+          header .top .navigation .col-xl-6 .wrap-header-nav nav div ul li a .show-when-hover {
+            opacity: 0;
+            width: 0%; }
+        header .top .navigation .col-xl-6 .wrap-header-nav nav div ul li .nav-link:hover .show-when-hover {
+          width: 100%;
           height: 2px;
           background-color: #cccc33;
-          position: absolute;
-          opacity: 0;
-          margin-top: 15px; }
-        header .top .navigation .col-xl-6 .wrap-header-nav nav div ul li .nav-link + .show-when-hover {
           opacity: 1;
-          transition-duration: 1s;
-          width: inherit; }
+          margin-top: 15px;
+          content: "";
+          display: block;
+          transition: 0.5s; }
         header .top .navigation .col-xl-6 .wrap-header-nav nav div ul .wrap-logo {
           text-align: center; }
     header .top .navigation .col-xl-3 .wrap-header-shortcut {
@@ -262,6 +263,18 @@ header .bottom {
       width: 317px;
       height: 317px;
       display: inline-block; }
+      .product-show .top .row .left-column .wrap-frame-25 .frame-25 .wrap-demo-images::before {
+        opacity: 0.75;
+        transition: opacity 0.4s;
+        position: absolute;
+        content: '';
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        background: #ffffff;
+        opacity: 0;
+        z-index: 2; }
     .product-show .top .row .left-column .wrap-frame-25 .frame-25:first-child {
       margin-right: 37px; }
     .product-show .top .row .left-column .wrap-frame-50 {
@@ -292,17 +305,18 @@ header .bottom {
           text-align: center;
           font-weight: bold;
           padding: unset !important; }
-        .product-show .bottom .row:first-child .col .wrap-navtab nav ul li a.nav-link:hover + .show-when-hover {
-          opacity: 1;
-          transition-duration: 1s;
-          width: 131px; }
-        .product-show .bottom .row:first-child .col .wrap-navtab nav ul li .show-when-hover {
-          width: 0;
+          .product-show .bottom .row:first-child .col .wrap-navtab nav ul li a.nav-link .show-when-hover {
+            width: 0%; }
+        .product-show .bottom .row:first-child .col .wrap-navtab nav ul li .nav-link:hover .show-when-hover {
+          width: 100%;
           height: 2px;
           background-color: #cccc33;
-          position: absolute;
-          opacity: 0;
-          margin-top: 15px; }
+          opacity: 1;
+          margin-top: 15px;
+          content: "";
+          display: block;
+          transition: 0.5s;
+          background-color: red; }
         .product-show .bottom .row:first-child .col .wrap-navtab nav ul li:first-child {
           margin-right: 45px; }
           .product-show .bottom .row:first-child .col .wrap-navtab nav ul li:first-child .show-when-hover {
@@ -326,6 +340,7 @@ header .bottom {
       .product-show .bottom .row:nth-child(2) .col .wrap-products-list .wrap-product:nth-child(4):nth-child(8) {
         margin-right: 0px; }
     .product-show .bottom .row:nth-child(3) .col .wrap-banner-ads {
+      background-image: url("../images/homepage/banner15.webp");
       position: relative; }
       .product-show .bottom .row:nth-child(3) .col .wrap-banner-ads .border-inside {
         width: 1345px;
@@ -380,89 +395,94 @@ header .bottom {
     display: block; }
   .blog .top .row:nth-child(2) {
     margin-top: 57px; }
-    .blog .top .row:nth-child(2) .col-12 .wrap-slider {
+    .blog .top .row:nth-child(2) .col-12 .multiple-items {
       text-align: center; }
-      .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph {
-        margin-top: 38px;
-        text-align: left; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .our-journey {
-          font-size: 18px;
+      .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item {
+        display: inline-block; }
+        .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph {
+          margin-top: 38px;
+          text-align: left;
+          width: 440px; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .our-journey {
+            font-size: 18px;
+            font-family: "OpenSans";
+            color: black;
+            line-height: 1.2; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .hr-bar-bellow-title {
+            width: 51px;
+            height: 1px;
+            background-color: #e5b72d;
+            display: inline-block;
+            text-align: left; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .story-describe {
+            font-size: 14px;
+            font-family: "OpenSans";
+            color: #868686;
+            line-height: 2;
+            margin-top: 15px; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .continue-reading {
+            font-size: 14px;
+            font-family: "Open Sans";
+            color: #e5b72d;
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: left;
+            display: block; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .hr-bar-bellow-continue-reading {
+            width: 137px;
+            height: 1px;
+            background-color: #e5b72d;
+            display: inline-block;
+            text-align: left; }
+          .blog .top .row:nth-child(2) .col-12 .multiple-items .slide-item .wrap-story-paragraph .icon-greater-than {
+            font-weight: 100;
+            font-size: 9px;
+            margin-left: 22px; }
+  .blog .top .row:nth-child(3) {
+    margin-top: 39px; }
+    .blog .top .row:nth-child(3) .signup-form {
+      width: 1400px;
+      height: 190px;
+      background-color: #ecf6f1; }
+      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph {
+        margin-top: 56px !important;
+        margin-left: 54px; }
+        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon {
+          display: inline-block; }
+          .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon .message-icon {
+            font-size: 90px;
+            margin-right: 35px; }
+      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note {
+        display: inline-block; }
+        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note .our-note {
+          font-size: 22px;
           font-family: "OpenSans";
           color: black;
-          line-height: 1.2; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .hr-bar-bellow-title {
-          width: 51px;
-          height: 1px;
-          background-color: #e5b72d;
-          display: inline-block;
+          line-height: 1.545;
           text-align: left; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .story-describe {
+      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email {
+        float: right;
+        margin-top: 71px;
+        margin-right: 55px; }
+        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email #signup-email-label {
           font-size: 14px;
           font-family: "OpenSans";
           color: #868686;
-          line-height: 2;
-          margin-top: 15px; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .continue-reading {
-          font-size: 14px;
-          font-family: "Open Sans";
-          color: #e5b72d;
-          font-weight: bold;
-          line-height: 1.2;
-          text-align: left;
-          display: block; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .hr-bar-bellow-continue-reading {
-          width: 137px;
-          height: 1px;
-          background-color: #e5b72d;
-          display: inline-block;
-          text-align: left; }
-        .blog .top .row:nth-child(2) .col-12 .wrap-slider .wrap-story-paragraph .icon-greater-than {
-          font-weight: 100;
-          font-size: 9px;
-          margin-left: 22px; }
-  .blog .top .row:nth-child(3) .signup-form {
-    width: 1400px;
-    height: 190px;
-    background-color: #ecf6f1; }
-    .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph {
-      margin-top: 56px !important;
-      margin-left: 54px; }
-      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon {
-        display: inline-block; }
-        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-signup-paragraph .wrap-fa-icon .message-icon {
-          font-size: 90px;
-          margin-right: 35px; }
-    .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note {
-      display: inline-block; }
-      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-our-note .our-note {
-        font-size: 22px;
-        font-family: "OpenSans";
-        color: black;
-        line-height: 1.545;
-        text-align: left; }
-    .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email {
-      float: right;
-      margin-top: 71px;
-      margin-right: 55px; }
-      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email #signup-email-label {
-        font-size: 14px;
-        font-family: "OpenSans";
-        color: #868686;
-        line-height: 11px;
-        display: block;
-        margin: 0 0 !important; }
-      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email .sent-email-icon {
-        float: right;
-        position: relative;
-        right: 15px;
-        bottom: 7px; }
-      .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email #signup-email {
-        border: unset;
-        border-bottom: 2px solid black;
-        outline: none;
-        width: 409px;
-        line-height: 16px;
-        background: unset; }
+          line-height: 11px;
+          display: block;
+          margin: 0 0 !important; }
+        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email .sent-email-icon {
+          float: right;
+          position: relative;
+          right: 15px;
+          bottom: 7px; }
+        .blog .top .row:nth-child(3) .signup-form .row .col-6 .wrap-input-email #signup-email {
+          border: unset;
+          border-bottom: 2px solid black;
+          outline: none;
+          width: 409px;
+          line-height: 16px;
+          background: unset; }
   .blog .top .row:nth-child(4) .wrap-instagram-btn {
     text-align: center;
     margin-top: 39px;
