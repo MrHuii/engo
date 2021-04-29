@@ -557,7 +557,8 @@ footer {
         line-height: 2.286;
         text-align: left;
         font-weight: unset;
-        text-align: inherit; }
+        text-align: inherit;
+        font-size: 16px; }
       footer .top .row .col-5 .wrap-right-col .wrap-footer-input-email #footer-email-field {
         width: 330px;
         height: 56px;
@@ -575,8 +576,7 @@ footer {
         border: unset;
         outline: unset;
         position: absolute;
-        right: 171px;
-        bottom: 9px; }
+        right: 171px; }
         footer .top .row .col-5 .wrap-right-col .wrap-footer-input-email #footer-submit-email-btn a {
           font-size: 12px;
           font-family: "OpenSans";

@@ -693,6 +693,7 @@ footer
                         {
                             @include font-company-information-refference;
                             text-align: inherit;
+                            font-size: 16px;
                         }
                     }
                     .wrap-footer-input-email
@@ -706,7 +707,6 @@ footer
                             @include button-submit-email;
                             position: absolute;
                             right: 171px;
-                            bottom: 9px;
                             
                             a 
                             {
